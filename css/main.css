@@ -132,16 +132,13 @@ opacity: 1;
     line-height: 24px;
     cursor: pointer;
     box-sizing: border-box;
-    position: relative;
-}
-.hero button:after{
-    content: "";
-    box-sizing: border-box;
-    position: absolute;
-    width: 40px;
-    height: 40px;
+    border-radius: 0 30px 0 0;
+    transition: 0.5s;
 }
 
+.hero button:hover{
+     opacity: 0.6;
+}
 /* main qismi  */
 .main{
     background-color: #141C24;
