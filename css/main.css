@@ -551,3 +551,6 @@ opacity: 1;
 .game{
     margin-top: 40px;
 }
+.footer--row img{
+    margin: 0 4px;
+}
