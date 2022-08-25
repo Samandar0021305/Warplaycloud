@@ -124,7 +124,7 @@ opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border: none;
     font-family: 'Voltaire';
     font-style: normal;
     font-weight: 400;
@@ -141,4 +141,49 @@ opacity: 1;
     width: 40px;
     height: 40px;
    
+}
+
+/* main qismi  */
+.main{
+    background-color: #141C24;
+}
+
+.section-list{
+    display: flex;
+
+    /* align-items: start !;  */
+}
+
+.section-list h2{
+    font-family: 'Voltaire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+.section-hr{
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    height: 1px ;
+    width: 271px;
+    display: block;
+    margin: 20px 0;
+}
+.section-list p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    line-height: 150%;
+    color: #ABABAB;
+}
+
+.section-list img{
+    width: 100%;
+    display: flex;
+}
+.section-list .section-item{
+    width: 49%;
 }
