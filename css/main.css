@@ -403,6 +403,7 @@ opacity: 1;
     border-radius: 5px;
     height: 50px;
     display: flex;
+    cursor: pointer;
     width: 290px;
     text-align: center;
   justify-content: center;
@@ -437,5 +438,112 @@ opacity: 1;
 }
 
 .wrapper-item{
+    transition: 1s;
+}
+
+.game-back-hr{
+    width: 582px;
+    height: 0px;
+    border: 1px solid #00C5FF;
+    transform: rotate(180deg);
+    display: flex;
+    margin-top: 90px;
+}
+.modul-bg{
+    width: 150px;
+}
+
+.modul{
+    margin-top:190px;
+    
+}
+.modul-item h2{
+    margin-top: 20px;
+    font-family: 'Voltaire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+.modul-item p{
+    margin-top: 90px !important;
+    margin-bottom: 60px !important;
+}
+
+.map{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.map h2{
+    font-family: 'Voltaire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.map-pic{
+    margin-top: 20px;
+}
+
+/* footer */
+.footer{
+    background: #171717;
+    padding: 20px 0;
+}
+
+.footer-link h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+
+    color: #ECECEC;
+}
+.footer-list{
+    margin-right: auto;
+    width: 270px;
+    margin-left: 30px;
+}
+.footer-list a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11px;
+    color: #ECECEC;
+    transition: 0.4s;
+    position: relative;
+   
+}
+.footer-list a:hover{
+    opacity: 0.7;
+}
+
+.footer--row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-right-list{
+    width: 410px;
+}
+.footer-right-list a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
     transition: 0.5s;
+}
+.footer-right-list a:hover{
+    opacity: 0.7;
 }
