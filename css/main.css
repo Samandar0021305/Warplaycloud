@@ -1,9 +1,20 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     margin: 0;
     padding: 0;
+}
+
+@font-face {
+    font-family: "Voltaire";
+    src: url(../fonts/Aire\ Exterior/#00C5FF);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/roboto/Roboto-Light.ttf);
 }
 
 ul,li{
@@ -15,4 +26,119 @@ a{
 .container{
     width: 1140px ;
     margin: 0 auto;
+}
+.header{
+ background: #141C24;
+ height: 100vh;
+}
+
+.flex--between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list{
+    width: 70%;
+}
+
+.navbar--link{
+    display: flex;
+    align-items: center;
+}
+.navbar--link img{
+    width: 30px ;
+    height: 30px;
+}
+.navbar--link h4{
+    margin-left: 9px;
+}
+
+.navbar{
+    padding: 10px 40px;
+}
+
+.navbar--hover{
+    display: block;
+    height: 1px;
+    background: #00C5FF;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+    margin-top: 3px;
+}
+.navbar-list a:hover ~ .navbar--hover{
+    width: 100%;
+}
+.navbar-list a:hover{
+opacity: 1;
+}
+.navbar-list a{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+    font-family: "Roboto";
+}
+
+
+/* hero qismi */
+
+.hero{
+    box-shadow: 33px 17px 29px rgba(0, 0, 0, 0.25);
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%, rgba(82, 125, 139, 0) 0%, rgba(82, 125, 139, 0.25) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/header-background.webp);
+    height: 550px;
+    background-size: 100% 100%;
+    background-position: top 10px right 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero p{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.hero h2{
+    font-family: "Voltaire";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.hero button{
+    background: #FFFFFF;
+    /* border-top-right-radius: 20px; */
+    height: 41px;
+    width: 221px;
+    margin-top: 30px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Voltaire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.hero button:after{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+   
 }
